@@ -1,12 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Admin Dashboard</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!--the layout will be splitted in 3 parts
+    the sidebar, header and the main-content containers -->
+
+    <header class="header">
+      <div class="search-bar">
+        <label for="search-area"><img src="" alt="search icon" /></label>
+        <input type="text" name="search-area" id="search-area" />
+        <!--need to put search icon-->
+      </div>
+
+      <div class="profile-section">
+        <img
+          src=""
+          alt="bell icon"
+          class="bell-icon"
+        /><!--need to add the icon-->
+        <img
+          src=""
+          alt="profile avatar"
+          class="profile-avatar"
+        /><!--need to add the icon-->
+        <h3 class="user-name">Udris Mugurel</h3>
+      </div>
+
+      <div class="welcome-section">
+        <img src="" alt="profile avatar " class="profile-avatar-big" />
+        <p class="welcome-message">Hi there,</p>
+        <p class="user-name bg">Udris Mugurel (@udrismugurel)</p>
+      </div>
+
+      <div class="buttons-section">
+        <button class="header-btn">New</button>
+        <button class="header-btn">Upload</button>
+        <button class="header-btn">Share</button>
+      </div>
+    </header>
+
+    <!--sidebar part -->
+
+    <nav class="sidebar">
+      <div class="logo">
+        <img src="" alt="logo icon" class="logo-icon" />
+        <h3>Dashboard</h3>
+      </div>
+
+      <div class="main-links">
+        <ul>
+          <li>
+            <img src="" alt="Home" />
+            <p>Home</p>
+          </li>
+          <li>
+            <img src="" alt="Profile" />
+            <p>Profile</p>
+          </li>
+          <li>
+            <img src="" alt="Messages" />
+            <p>Messages</p>
+          </li>
+          <li>
+            <img src="" alt="History" />
+            <p>History</p>
+          </li>
+          <li>
+            <img src="" alt="Tasks" />
+            <p>Tasks</p>
+          </li>
+          <li>
+            <img src="" alt="Communities" />
+            <p>Communities</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="secondary-links">
+        <ul>
+          <li>
+            <img src="" alt="Settings" />
+            <p>Settings</p>
+          </li>
+          <li>
+            <img src="" alt="Support" />
+            <p>Support</p>
+          </li>
+          <li>
+            <img src="" alt="Privacy" />
+            <p>Privacy</p>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--the main part with projects, announcements and so on -->
+
+    <main class="content">
+      <div class="projects">
+        <h4>You're projects</h4>
+        <!---->
+        <div class="project">
+          <div class="color-block"></div>
+          <div class="text-block">
+            <h5 class="project-name">Super Cool Project</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate dicta harum quibusdam corrupti sed aliquid debitis
+              numquam, dolorem repellat recusandae commodi, soluta ad doloremque
+              ducimus. Sequi nam repudiandae aliquam at?
+            </p>
+          </div>
+          <div class="actions">
+            <img src="" alt="save" class="action-img" />
+            <img src="" alt="delete" class="action-img" />
+            <img src="" alt="share" class="action-img" />
+          </div>
+        </div>
+
+        <!---->
+        <div class="project">
+          <div class="color-block"></div>
+          <div class="text-block">
+            <h5 class="project-name">Less Cool Projectt</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate dicta harum quibusdam corrupti sed aliquid debitis
+              numquam, dolorem repellat recusandae commodi, soluta ad doloremque
+              ducimus. Sequi nam repudiandae aliquam at?
+            </p>
+          </div>
+          <div class="actions">
+            <img src="" alt="save" class="action-img" />
+            <img src="" alt="delete" class="action-img" />
+            <img src="" alt="share" class="action-img" />
+          </div>
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="project">
+        <div class="color-block"></div>
+        <div class="text-block">
+          <h5 class="project-name">Impossible App</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            dicta harum quibusdam corrupti sed aliquid debitis numquam, dolorem
+            repellat recusandae commodi, soluta ad doloremque ducimus. Sequi nam
+            repudiandae aliquam at?
+          </p>
+        </div>
+        <div class="actions">
+          <img src="" alt="save" class="action-img" />
+          <img src="" alt="delete" class="action-img" />
+          <img src="" alt="share" class="action-img" />
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="project">
+        <div class="color-block"></div>
+        <div class="text-block">
+          <h5 class="project-name">Easy Peasy App</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            dicta harum quibusdam corrupti sed aliquid debitis numquam, dolorem
+            repellat recusandae commodi, soluta ad doloremque ducimus. Sequi nam
+            repudiandae aliquam at?
+          </p>
+        </div>
+        <div class="actions">
+          <img src="" alt="save" class="action-img" />
+          <img src="" alt="delete" class="action-img" />
+          <img src="" alt="share" class="action-img" />
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="project">
+        <div class="color-block"></div>
+        <div class="text-block">
+          <h5 class="project-name">Ad Blocker</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            dicta harum quibusdam corrupti sed aliquid debitis numquam, dolorem
+            repellat recusandae commodi, soluta ad doloremque ducimus. Sequi nam
+            repudiandae aliquam at?
+          </p>
+        </div>
+        <div class="actions">
+          <img src="" alt="save" class="action-img" />
+          <img src="" alt="delete" class="action-img" />
+          <img src="" alt="share" class="action-img" />
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="project">
+        <div class="color-block"></div>
+        <div class="text-block">
+          <h5 class="project-name">Money Maker</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            dicta harum quibusdam corrupti sed aliquid debitis numquam, dolorem
+            repellat recusandae commodi, soluta ad doloremque ducimus. Sequi nam
+            repudiandae aliquam at?
+          </p>
+        </div>
+        <div class="actions">
+          <img src="" alt="save" class="action-img" />
+          <img src="" alt="delete" class="action-img" />
+          <img src="" alt="share" class="action-img" />
+        </div>
+      </div>
+
+      <div class="trend-and-adds">
+        <div class="adds">
+            <!---->
+          <h4>Announcements</h4>
+          <div class="add-content">
+            <h6>Site Maintenance</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quidem, ad officiis animi similique soluta. .
+            </p>
+          </div>
+          
+
+          <!---->
+          
+            <h6>Comunity Share Day</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quidem, ad officiis animi similique soluta. .
+            </p>
+          </div>
+          <div class="add-border"></div>
+
+          <!---->
+
+          <h6>Updated Privacy Policy</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quidem, ad officiis animi similique soluta. .
+            </p>
+          </div>
+          <div class="add-border"></div>
+
+        </div>
+
+        <div>
+            <h4>Trending</h4>
+            <div class="trend-content">
+                <div class="trend">
+                    <img src="" alt="user-avatar" class="trend-avatar" >
+                    <p>
+                        <span class="trend-tag">@tegan</span>
+                        <span class="trend-text">World Peace Builder</span>
+                    </p>
+                </div>
+
+                <!---->
+
+                <div class="trend">
+                    <img src="" alt="user-avatar" class="trend-avatar" >
+                    <p>
+                        <span class="trend-tag">@morgan</span>
+                        <span class="trend-text">Super Cool Project</span>
+                    </p>
+                </div>
+
+                <!---->
+
+                <div class="trend">
+                    <img src="" alt="user-avatar" class="trend-avatar" >
+                    <p>
+                        <span class="trend-tag">@kendall</span>
+                        <span class="trend-text">Life Changing App</span>
+                    </p>
+                </div>
+
+                <!---->
+
+                <div class="trend">
+                    <img src="" alt="user-avatar" class="trend-avatar" >
+                    <p>
+                        <span class="trend-tag">@alex</span>
+                        <span class="trend-text">No Traffic Maker</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
